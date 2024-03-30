@@ -16,7 +16,6 @@
     "@types/node": "^20.11.30",
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
-    "tup": "^0.0.0",
     "typescript": "^5.4.3"
   },
   "dependencies": {
