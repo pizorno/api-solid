@@ -24,15 +24,15 @@ model User {
 }
 
 model CheckIn {
-    id           String @id default(uuid())
-    created_at   DateTime @default(now())
-    validated_at DateTime?
+    id            String @id @default(uuid())
+    created_at    DateTime @default(now())
+    validated_at  DateTime?
 
     @@map("check_ins")
   }
 
   model Gym {
-      id          String @id default(uuid())
+      id          String @id @default(uuid())
       title       String
       description String?
       phone       String?
